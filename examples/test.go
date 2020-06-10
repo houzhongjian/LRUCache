@@ -16,4 +16,5 @@ func main() {
 	log.Println(cache.Get("name"))
 	cache.Set("age", 10)
 	cache.Set("sex", "男")
+	cache.Set("sex1", "男")
 }
